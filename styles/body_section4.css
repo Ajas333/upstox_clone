@@ -1,0 +1,101 @@
+.section4{
+    /* background-color: rgb(57, 220, 57); */
+    display: flex;
+    justify-content: center;
+    font-family: Inter;
+    margin-top: 130px;
+}
+.section4_mainbody{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    /* background-color: aqua; */
+
+}
+.section4_head{
+    height: 131.15px;
+    width: 100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section4_heading{
+    color: rgb(65,36,110);
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.section4_text{
+    margin-top: 14px;
+    margin-bottom: 25px;
+    color: rgba(0,0,0,.7);
+    font-size: 16px;
+    font-weight: 500;
+}
+.section4_text span{
+    color: rgb(0,0,0);
+    font-weight: 700;
+}
+.section4_button{
+    font-size: 12px;
+    font-weight: 700;
+    padding: 8px 16px;
+    border-style: solid;
+    border-width: 0.8px;
+    border-radius: 50px;
+    border-color: rgb(97, 57, 159);
+    color: rgb(97, 57, 159);
+    background-color: transparent;
+    transition: background-color 0.6s;
+    cursor: pointer;
+    
+}
+.section4_button:hover{
+    background-color: rgb(97, 57, 159);
+    color: white;
+}
+.section4_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 28px;
+    margin-top: 95px;
+}
+.section4_grid_data{
+    height: 210px;
+    /* background-color: lightcoral; */
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    transition: background-color .9s;
+}
+.section4_grid_data:hover{
+    background-color: rgb(239, 235, 242);
+}
+.section4_grid_image{
+    display: flex;
+    justify-content: center;
+    /* background-color: aquamarine; */
+    
+}
+.section4_grid_text{
+
+    color: rgb(65, 36, 110);
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.18;
+    /* background-color: aliceblue; */
+    text-align: center;
+    margin-top: 28px;
+}
+.section4_grid_text span{
+    background-color: rgb(97, 57, 159);
+    color: rgb(255,255,255);
+    font-size: 12px;
+    font-family: 600;
+    padding: 6.5px 9px;
+    border-radius: 5px;
+    margin-right: 6px;
+}

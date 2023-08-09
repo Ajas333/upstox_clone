@@ -1,0 +1,230 @@
+.header{
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    z-index: 200;
+    top: 0;
+    background-color: white;
+}
+
+.section1{
+     background-color:#7cfc00 ; 
+    height: 637px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 70px;
+    font-family: Inter;
+}
+.section1_main{
+   height: 470px;
+    width:1302px;
+     background-color: #f5e8ff;
+    display: flex;
+    flex-direction: row;
+    margin-top: 53px;
+    border-radius: 12px;
+}
+.section1_left{
+    /* background-color: rgb(228, 183, 183);  */
+    height: 446px;
+    width:650px;
+    margin-left: 64px;
+    margin-top: 23px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.section1_left_box1{
+    background-color: #61399f;
+    height: 421.5px;
+    width: 605px;
+    border-radius: 12px;
+    transform: rotate(-5deg);
+    position: relative;
+    
+}
+.section1_left_box2{
+    display: flex;
+    background-color: white;
+    height: 382px;
+    width: 622px;
+    transform: rotate(5deg);
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+
+}
+.left_box_info1,.left_box_info2,
+.left_box_info3,.left_box_info4 {
+    display: flex;
+    width: 505px;
+    margin-left: 8px;
+    
+    
+}
+.left_box_info1{
+      /* background-color: #7cfc00; */
+    display: flex;
+    flex-direction: column;
+    
+}
+.left_box_info1_line1{
+    color: rgb(65, 36, 110);
+    font-weight: 700;
+    font-size: 27px;
+    margin-bottom: 0;
+
+}
+.left_box_info1_line2{
+    margin-top: 2px;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgb(65, 36, 110);
+}
+.left_box_info2{ 
+    flex-direction: row;
+     /* background-color: rgb(244, 182, 182) */
+    ;
+   
+}
+.number_input_area{
+    border-style: solid;
+    border-width: .08px;
+    border-color: rgb(64, 61, 61);
+    border-radius: 32px;
+    align-items: center;
+    padding: 15px 136.5px 19px 15px;
+    margin-right: 6px;
+    height: 18.5px;
+   
+}
+.countrycode{
+    border-style: none;
+    margin: 3px 0  ;
+    font-size: 14px;
+    margin-right: 19px;
+    color: rgb(85, 85, 85);
+    font-weight: 700;
+    
+}
+.input_number{
+    border-style: none;
+    margin: 3px 0;
+    width: 178px;   
+    height: 100%; 
+}
+.input_number:focus{
+    outline: none;
+}
+.input_number::placeholder{
+    font-size: 14px;
+    font-family: Inter;
+    color: rgb(153, 150, 150);
+}
+.signup_button{
+    border-style: none;
+    background-color:#61399f;
+    color: white;
+    font-family: Inter;
+    font-size: 14px;
+    font-stretch: 100%;
+    font-weight: 700;
+    padding: 19px 22px 18.3px 22px;
+    border-radius: 50px;
+    margin-left: 5px;
+}
+.left_box_info3{
+     /* background-color: rgb(170, 215, 213); */
+     display: block;
+     padding-top: 10px;
+}
+/* .info3_line1{
+    color: rgb(206, 58, 58);
+    font-size: 12px;
+    font-weight: 400;
+} */
+.info3_line2{
+    color: rgb(102, 102, 102);
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1.4;
+
+}
+.info3_line{
+    margin-top: 26px;
+    width: 164px;
+    height: 2px;
+    background-color: rgba(97, 57, 159, 0.3);
+}
+.left_box_info4{
+     /* background-color: rgb(51, 141, 230); */
+    display: flex;
+    margin-top: 0;
+    padding-top: 5px;
+    margin-top: 36px;
+    width: 522px;
+    margin-left: 25px;
+
+} 
+.info4_col_1,.info4_col_2,
+.info4_col_3,.info4_col_4{
+    /* background-color: hsl(90, 100%, 49%); */
+    height: 54.6px;
+    flex: 1;
+    padding-left: 9px;
+
+}
+.info4_col_2{
+   margin-left: 26px;
+   padding-left: 20px;
+}
+.info4_col_3{
+    margin-left: -15px;
+}
+.tata_logo{
+   /* background-color: blanchedalmond; */
+   height: 27px;
+   width: 100px;
+  
+}
+.info4_col_4{
+margin-top: -4px;
+padding-left: 0;
+height: 60px;
+
+}
+.info4_col_one{
+ font-size: 18px;
+ font-weight: 700;
+ color: rgb(68, 68, 68);
+ /* background-color: aqua; */
+ height: 24px;
+}
+.info4_col_two{
+    margin-top: 7px;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(61, 61, 61, 0.75);
+    
+}
+.info4_col_two#data{
+    margin-top: 11px;
+}
+.section1_right{
+    /* background-color: rgb(157, 246, 251); */
+    height: 446px;
+    flex: 1;   
+    display: flex;
+    margin-top: 21px;
+   
+    
+}
+.phone_image{
+    height: 495px;
+    margin-top: -48px;
+    margin-left:48px;
+}

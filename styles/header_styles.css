@@ -1,0 +1,149 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    z-index:200;
+    height: 70px;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding-left: 63px;
+    margin-right: 63px;
+    /* background-color: rgb(228, 192, 192); */
+    
+}
+.header_left{
+    width: 100px;
+    display: flex;
+    padding-left: 32px;
+    padding-top: 13px;
+
+
+  
+}
+.header_left_logo{
+    height: 48px;
+    cursor: pointer;
+    
+   
+}
+
+.header_middle{
+    width: 489px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 29px;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+    
+}
+.h_m_link3{
+    display: flex;
+    position: relative;
+}
+.h_m_link3_tag{
+    background: #41246e;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 3px 4px 4px 3.5px;
+    margin-left: 2px;
+    font-size: 8px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: white;
+}
+.h_m_link1, .h_m_link2, .h_m_link3,
+.h_m_link4,.h_m_link5,.h_m_link6 {
+    font-size: 14px;
+   cursor: pointer;
+   font-family:  Inter;
+    
+}
+
+.header_right{
+    
+    align-items: center;
+    display: flex;
+    flex: 1;
+    margin-left: 100px;
+}
+
+.search_area{
+    width: 277px;
+    height: 30px;
+    margin-left: 14px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(67, 22, 92);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding-left: 2px;
+    padding-right: 8px;
+    padding-top: 3px;
+
+}
+.search_icon{
+    height: 13px;
+    margin-top: 2px;
+   
+}
+.search_button{
+    border-style: none;
+
+}
+.search_box{
+    height: 27px;
+    border-style: none;
+    flex: 1;
+    margin-right: 3px;
+}
+.search_box:focus{
+    outline: none;
+}
+
+.search_box::placeholder{
+    font-size: 14.2px;
+    font-family: Inter;
+}
+.right_buttons{
+    margin-left: 15px;
+    display: inline-block;
+    display: flex;
+
+}
+.button_one{
+    height:39px ;
+    background-color: #61399f;
+    color: white;
+    font-weight: 700;
+    border-radius: 19px;
+    border-style: none;
+    padding-left: 13px;
+    padding-right: 13px;
+    font-size: 14px;
+    cursor: pointer;
+    flex: 1fr;
+}
+.button_one:hover{
+    background-color: #381966;
+}
+.button_two{
+    height: 38px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #3f1f6f ;
+    border-radius: 19px;
+    border-style: solid;
+    border-width: 0.8px;
+    border-color: #61399f;
+    margin-left: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 4px;
+    cursor: pointer;
+}
+.button_two:hover{
+    background-color: #ede8f4;
+}
